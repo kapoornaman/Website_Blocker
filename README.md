@@ -1,4 +1,4 @@
-# Ultimate Discipline Blocker
+# Website Blocker
 
 A browser extension that helps you stay focused by blocking distracting websites. Once activated, blocked sites can only be unblocked with a randomly generated password, making it harder to bypass your own restrictions.
 
