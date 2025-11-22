@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial; width: 350px; padding: 15px; }
+    input { width: 100%; padding: 8px; margin-top: 10px; box-sizing: border-box; }
+    button { width: 100%; padding: 10px; margin-top: 10px; }
+    #generatedPassword { font-size: 16px; word-break: break-all; }
+  </style>
+</head>
+<body>
+
+  <h3>Block Sites</h3>
+  <button id="blockAll">Block All Sites</button>
+  <p id="generatedPassword" style="margin-top: 10px; font-weight: bold;"></p>
+  <p id="blockedSites" style="margin-top: 10px; font-size: 12px; color: #666;"></p>
+  <p style="margin-top: 10px; font-size: 11px; color: #999;">
+    Edit sites in background.js
+  </p>
+    
+
+  <h3>Unblock</h3>
+  <input id="password" type="password" placeholder="Enter password" />
+  <button id="unblock">Unlock</button>
+
+  <p id="msg"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Ultimate Discipline Blocker",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Blocker"
+  },
+  "web_accessible_resources": ["block.html"]
+}
